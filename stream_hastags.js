@@ -8,7 +8,8 @@ var cluster = require('cluster');
 var fs = require('fs');
 var path = require('path');
 
-var numCPUs = 4;
+var os = require('os');
+var numCPUs = os.cpus().length;
 
 var T = new Twit(config);
 

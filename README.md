@@ -1,1 +1,1 @@
-# twitter__trending_hashtag_streamer
+# twitter_trending_hashtag_streamer
